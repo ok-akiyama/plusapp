@@ -6,5 +6,8 @@ class AdditionsController < ApplicationController
 
   def done
   end
+
+  def subtraction
+  end
   
 end

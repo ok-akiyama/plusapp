@@ -1,11 +1,11 @@
 <header class='top-page-header'>
   <div class='search-bar-contents'>
-    <%= image_tag("plusslogo.JPG", class:"furima-icon") %>
+    <%= link_to image_tag("plusslogo.JPG", class:"furima-icon"), root_path %>
   </div>
   <div class='nav'>
     <ul class='lists-left'>
-      <li><%= link_to 'たしざん', "#", class: "category-list" %></li>
-      <li><%= link_to 'ひきざん', "#", class: "brand-list" %></li>
+      <li><%= link_to 'たしざん',  "/additions/done", class: "category-list" %></li>
+      <li><%= link_to 'ひきざん', "/additions/subtraction", class: "brand-list" %></li>
     </ul>
    
     <ul class='lists-right'>

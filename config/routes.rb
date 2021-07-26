@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :additions, only: [:index] do
     collection do 
       get 'done'
+      get 'subtraction'
     end
   end
 end

@@ -1,4 +1,5 @@
 window.addEventListener('load', function(){
+  if ( document.getElementById('calculate2')){
   const Button = document.getElementById("calculate2")
 
 
@@ -17,6 +18,6 @@ window.addEventListener('load', function(){
   
   console.log("click OK")
   })
-
+  }
   
 })

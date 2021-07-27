@@ -7,6 +7,7 @@
   padding: 2vh 15vw;
   display: flex;
   flex-direction: column;
+  background-color: #272727;
 }
 
 .search-bar-contents {
@@ -18,6 +19,8 @@
 .furima-icon {
   width: 7vw;
   margin-right: 7vw;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -40,12 +43,12 @@
 .category-list {
   text-decoration: none;
   margin-right: 3vw;
-  color: #333333;
+  color: #fff;
 }
 
 .brand-list {
   text-decoration: none;
-  color: #333333;
+  color: #fff;
 }
 
 .lists-right {
@@ -58,23 +61,23 @@
 .user-nickname {
   text-decoration: none;
   margin-right: 3vw;
-  color: #333333;
+  color: #fff;
 }
 
 
 .logout {
   text-decoration: none;
-  color: #333333;
+  color: #fff;
 }
 
 .login {
   text-decoration: none;
   line-height: 32px;
   margin-right: 3vw;
-  color: #333333;
+  color: #fff;
 }
 
 .sign-up {
   text-decoration: none;
-  color: #333333;
+  color: #fff;
 }

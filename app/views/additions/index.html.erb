@@ -3,8 +3,10 @@
 <div class="main">
 
  <div class="question-btn">
-  <%= link_to "たしざんをする", "#", class:"plus-btn" %>
-  <%= link_to "ひきざんをする", "#", class:"pull-btn" %> 
+  <%= link_to "たしざんをする", "/additions/done", class:"plus-btn" %>
+  <%= link_to "ひきざんをする", "/additions/subtraction", class:"pull-btn" %> 
  </div>
 
 </div>
+
+<%= render "shared/footer" %>
